@@ -69,12 +69,12 @@ public class AboutSweeping extends JDialog {
 	private JPanel getPanel() {
 		JPanel panel = new JPanel();
 		labelIcon = new JLabel(StaticTool.imageIcon);
-		labelOne = new JLabel("扫雷，聪明者的游戏！");
+		labelOne = new JLabel("扫雷会上瘾");
 		boxOne = Box.createHorizontalBox();
 		boxOne.add(labelIcon);
 		boxOne.add(Box.createHorizontalStrut(20));
 		boxOne.add(labelOne);
-		labelTwo = new JLabel("作品说明：There are too many bombs?    ");
+		labelTwo = new JLabel("There are too many bombs?    ");
 		boxTwo = Box.createHorizontalBox();
 		boxTwo.add(labelTwo);
 		labelThree = new JLabel("作者：MoyeMio");
