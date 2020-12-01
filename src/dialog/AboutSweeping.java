@@ -56,7 +56,7 @@ public class AboutSweeping extends JDialog {
 
 		super(mainFrame);
 		sweeping = this;
-		this.setTitle("¹ØÓÚÉ¨À×");
+		this.setTitle("å…³äºæ‰«é›·");
 		this.add(getPanel());
 		this.setSize(new Dimension(300, 200));
 		this.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
@@ -69,21 +69,21 @@ public class AboutSweeping extends JDialog {
 	private JPanel getPanel() {
 		JPanel panel = new JPanel();
 		labelIcon = new JLabel(StaticTool.imageIcon);
-		labelOne = new JLabel("É¨À×£¬´ÏÃ÷ÕßµÄÓÎÏ·£¡");
+		labelOne = new JLabel("æ‰«é›·ï¼Œèªæ˜è€…çš„æ¸¸æˆï¼");
 		boxOne = Box.createHorizontalBox();
 		boxOne.add(labelIcon);
 		boxOne.add(Box.createHorizontalStrut(20));
 		boxOne.add(labelOne);
-		labelTwo = new JLabel("×÷Æ·ËµÃ÷£ºjavaSEÏîÄ¿    ");
+		labelTwo = new JLabel("ä½œå“è¯´æ˜ï¼šThere are too many bombs?    ");
 		boxTwo = Box.createHorizontalBox();
 		boxTwo.add(labelTwo);
-		labelThree = new JLabel("Ö¸µ¼ÀÏÊ¦£º½İÓ¯½ÌÓı--ÀîÁú");
+		labelThree = new JLabel("ä½œè€…ï¼šMoyeMio");
 		boxThree = Box.createHorizontalBox();
 		boxThree.add(labelThree);
-		labelFour = new JLabel("°æÈ¨ËùÓĞ£ºfjut--ÁõÏò·å  ");
+		labelFour = new JLabel("");
 		boxFour = Box.createHorizontalBox();
 		boxFour.add(labelFour);
-		labelFive = new JLabel("ÖÆ×÷Ê±¼ä£º2012.6.1      ");
+		labelFive = new JLabel("åˆ¶ä½œæ—¶é—´ï¼š2018.6.1      ");
 		boxFive = Box.createHorizontalBox();
 		boxFive.add(labelFive);
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -92,7 +92,7 @@ public class AboutSweeping extends JDialog {
 		panel.add(boxThree);
 		panel.add(boxFour);
 		panel.add(boxFive);
-		JButton button = new JButton("È·¶¨");
+		JButton button = new JButton("ç¡®å®š");
 		button.addActionListener(new ActionListener() {
 
 			@Override
